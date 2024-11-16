@@ -78,13 +78,13 @@ Ensure you have the following installed:
 │   │   └── user.js       # Mongoose schema for user
 │   ├── routes
 │   │   └── authRoute.js  # Authentication routes
-│   ├── views
-│   │   ├── login.ejs     # Login page
-│   │   ├── signup.ejs    # Signup page
-│   │   └── home.ejs      # Home page
 │   └── app.js            # Main app entry point
 ├── public
 │   └── style.css         # CSS for styling
+├── views
+│   │   ├── login.ejs     # Login page
+│   │   ├── signup.ejs    # Signup page
+│   │   └── home.ejs      # Home page
 ├── .env                  # Environment variables
 ├── package.json          # Project dependencies
 └── README.md             # Project documentation
@@ -95,7 +95,7 @@ Ensure you have the following installed:
 ## **Endpoints**
 | **Method** | **Route**    | **Description**                  |
 |------------|--------------|----------------------------------|
-| `GET`      | `/`          | Home page (protected route)     |
+| `GET`      | `/`          | Home page                      |
 | `GET`      | `/signup`    | Signup form                    |
 | `POST`     | `/signup`    | Create a new user              |
 | `GET`      | `/login`     | Login form                     |
